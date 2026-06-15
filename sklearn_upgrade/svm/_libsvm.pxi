@@ -1,6 +1,6 @@
 ################################################################################
 # Includes
-from sklearn.utils._typedefs cimport intp_t
+from sklearn_upgrade.utils._typedefs cimport intp_t
 
 cdef extern from "_svm_cython_blas_helpers.h":
     ctypedef enum BLAS_Order:
